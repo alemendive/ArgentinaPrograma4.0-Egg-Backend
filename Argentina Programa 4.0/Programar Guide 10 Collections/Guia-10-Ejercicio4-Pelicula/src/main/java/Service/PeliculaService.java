@@ -30,14 +30,6 @@ public class PeliculaService {
 
 
         } while (opcion.equalsIgnoreCase("S"));
-        mostrarPeliculas();
-        mostrarPeliMenorHora();
-
-        ordenarPelisDesc();
-        ordenarPelisAsc();
-        ordenarPelisPorTitulo();
-        ordenarPelisPorDirector();
-
     }
 
     public void mostrarPeliculas() {

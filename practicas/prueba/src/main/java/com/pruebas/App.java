@@ -82,7 +82,7 @@ public class App {
         String[] array = text.split("");
         List<String> list = Arrays.asList(array);
         Collections.shuffle(list);
-        list.forEach(System.out::println);
+        list.forEach(System.out::print);
     }
 
     public void m8GetOnlyNotDuplicatesList(List<Integer> list) {
@@ -122,7 +122,7 @@ public class App {
 
     public static void main(String[] args) {
         App app = new App();
-        app.m1InvertString("mitocode");
+        //app.m1InvertString("mitocode");
         //app.m2IsCapicua(5215);
         //app.m3CountCharacterTimes("mitocode");
         //app.m4RepeatedCharacters("mitocode");
@@ -131,9 +131,11 @@ public class App {
         //app.m7RamdomOrderString("mitocode");
         //app.m8GetOnlyNotDuplicatesList(Arrays.asList(1,2,3,4,5,5,1,2,9));
         //app.m9CheckIfVowelIsPresent("mitocode");
-        System.out.println(app.m10Palindrome("oro"));
+        //System.out.println(app.m10Palindrome("oro"));
+        app.m7RamdomOrderString("Alejandro");
 
 
 
     }
+
 }

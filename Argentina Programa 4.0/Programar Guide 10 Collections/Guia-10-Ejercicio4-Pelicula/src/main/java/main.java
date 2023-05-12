@@ -31,13 +31,13 @@ public class main {
         PeliculaService service = new PeliculaService();
 
         service.crearPelicula();
-        /*service.mostrarPeliculas();
+        service.mostrarPeliculas();
         service.mostrarPeliMenorHora();
 
         service.ordenarPelisDesc();
         service.ordenarPelisAsc();
         service.ordenarPelisPorTitulo();
-        service.ordenarPelisPorDirector();*/
+        service.ordenarPelisPorDirector();
 
     }
 

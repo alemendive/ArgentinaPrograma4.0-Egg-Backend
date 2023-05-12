@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4516e0d3-60bb-4251-8c3c-13d1ac3a76ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Argentina Programa 4.0/Programar Guide 10 Collections/Guia-10-Ejercicio4-Pelicula/src/main/java/Service/PeliculaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Argentina Programa 4.0/Programar Guide 10 Collections/Guia-10-Ejercicio4-Pelicula/src/main/java/Service/PeliculaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Argentina Programa 4.0/Programar Guide 10 Collections/Guia-10-Ejercicio4-Pelicula/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Argentina Programa 4.0/Programar Guide 10 Collections/Guia-10-Ejercicio4-Pelicula/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Argentina Programa 4.0/Programar Guide 10 Collections/Guide10Ejercicio3/src/main/java/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Argentina Programa 4.0/Programar Guide 10 Collections/Guide10Ejercicio3/src/main/java/Ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Herencia-POO/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Herencia-POO/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicas/prueba/src/main/java/com/pruebas/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practicas/prueba/src/main/java/com/pruebas/App.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PW7tM4n87P8qAOulXAcLf2sugl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Ale/IdeaProjects/EjerciciosExtraYT/ejercicioVehiculo"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4516e0d3-60bb-4251-8c3c-13d1ac3a76ef" name="Changes" comment="" />
+      <created>1683561198867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683561198867</updated>
+    </task>
+    <servers />
+  </component>
+</project>
