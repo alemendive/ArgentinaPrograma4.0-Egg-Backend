@@ -1,0 +1,9 @@
+@startuml
+class java.util.HashMap
+class java.util.Scanner
+class main
+class service.CiudadesService
+main ..> service.CiudadesService
+service.CiudadesService ..> java.util.HashMap
+service.CiudadesService ..> java.util.Scanner
+@enduml
