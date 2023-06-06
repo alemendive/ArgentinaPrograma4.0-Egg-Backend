@@ -3,10 +3,10 @@ import java.util.ArrayList;
 public class EjExtra02main {
     public static void main(String[] args) {
         ArrayList<Edificio> edificioArrayList = new ArrayList<>();
-        Polideportivo polideportivo1 = new Polideportivo(20, 3, 30, true);
-        Polideportivo polideportivo2 = new Polideportivo(20, 3, 30, false);
-        EdificioDeOficinas edificioDeOficinas1 = new EdificioDeOficinas(10, 15, 10, 3, 5, 5);
-        EdificioDeOficinas edificioDeOficinas2 = new EdificioDeOficinas(20, 3, 15, 5, 5, 5);
+        Edificio polideportivo1 = new Polideportivo(20, 3, 30, true);
+        Edificio polideportivo2 = new Polideportivo(20, 3, 30, false);
+        Edificio edificioDeOficinas1 = new EdificioDeOficinas(10, 15, 10, 3, 5, 5);
+        Edificio edificioDeOficinas2 = new EdificioDeOficinas(20, 3, 15, 5, 5, 5);
 
         edificioArrayList.add(polideportivo1);
         edificioArrayList.add(polideportivo2);

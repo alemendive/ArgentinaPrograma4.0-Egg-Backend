@@ -14,12 +14,12 @@ public class EdificioDeOficinas extends Edificio {
 
     @Override
     public void calcularSuperficie() {
-        System.out.println("Superficie: " + ancho * alto);
+        System.out.println("Superficie: " + ancho * alto + "m2");
     }
 
     @Override
     public void calcularVolumen() {
-        System.out.println("Volumen: " + alto * alto * largo);
+        System.out.println("Volumen: " + alto * alto * largo + "m3");
     }
 
     public void cantPersonas() {
