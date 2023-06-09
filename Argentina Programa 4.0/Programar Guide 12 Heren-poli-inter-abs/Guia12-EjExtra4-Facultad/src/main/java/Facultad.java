@@ -33,6 +33,7 @@ public class Facultad {
         ((Profesor) profesor1).cambioDeDepartamento();
         empleado2.trasladarSeccion();
 
+
         for (Persona persona : listaPersonas) {
             System.out.println(persona);
             System.out.println(" ");
