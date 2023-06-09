@@ -1,4 +1,4 @@
-import java.util.InputMismatchException;
+
 import java.util.Scanner;
 
 public class Principal {
@@ -18,10 +18,11 @@ public class Principal {
             int num1 = Integer.parseInt(numero1);
             int num2 = Integer.parseInt(numero2);
             System.out.println("El resultado es: " + num1 / num2);
-        } catch (ArithmeticException e) {
+        } catch (NumberFormatException | NullPointerException nfe) {
+            System.out.println("No puede ingresar letras");
+            System.out.println("Error: " + nfe.getMessage());
+        } catch (ArithmeticException ae) {
             System.out.println("No se puede dividir por 0");
-            e.getMessage();
-            e.printStackTrace();
         } catch (Exception e) {
             System.out.println("Error:  " + e.getMessage());
             e.printStackTrace();
