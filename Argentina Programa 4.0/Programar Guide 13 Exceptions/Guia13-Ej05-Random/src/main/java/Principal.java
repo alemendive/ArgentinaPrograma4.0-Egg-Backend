@@ -26,7 +26,7 @@ carácter fallido como un intento.
         while (true) {
             System.out.println("Introduce tu numero: ");
             try {
-                int numero = leer.nextInt();
+                int numero = Integer.parseInt(leer.next());
                 intentos++;
                 System.out.println("Intento numero " + intentos);
                 if (numeroSecreto == numero) {
@@ -37,11 +37,11 @@ carácter fallido como un intento.
                 } else {
                     System.out.println("El numero secreto es menor");
                 }
-            } catch (InputMismatchException e) {
+            } catch (InputMismatchException | NumberFormatException e) {
                 System.out.println("El valor introducido no es un numero");
+                intentos++;
                 leer.next();
             }
         }
-
     }
 }

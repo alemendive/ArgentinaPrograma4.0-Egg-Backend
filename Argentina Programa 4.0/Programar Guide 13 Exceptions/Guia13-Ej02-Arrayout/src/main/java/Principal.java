@@ -8,15 +8,12 @@ public class Principal {
         int[] numeros = {1,2,3,4,5};
         try{
             System.out.println(numeros[10]);
-        } catch (ArrayIndexOutOfBoundsException e){
+        } catch (ArrayIndexOutOfBoundsException aibe){
             System.out.println("Longitud incorrecta");
-            System.out.println(e.getMessage());
-            e.getStackTrace();
-
+            System.out.println(aibe.getMessage());
+            aibe.fillInStackTrace();
         } finally {
             System.out.println("Adios");
         }
-
-
     }
 }

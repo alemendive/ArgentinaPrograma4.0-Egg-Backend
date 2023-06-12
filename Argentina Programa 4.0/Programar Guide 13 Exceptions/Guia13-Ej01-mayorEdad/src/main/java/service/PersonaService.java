@@ -9,16 +9,11 @@ public class PersonaService {
 
 
     public boolean esMayorDeEdad(Persona nombre) {
-        boolean mayor = true;
-        try {
-            // System.out.println("Es mayor de edad.");
-            // System.out.println("Es menor de edad.");
-            mayor = nombre.getEdad() > 18;
-            return mayor;
-        } catch (Exception e) {
-            System.out.println("Error: " + e);
-            return false;
+        boolean esMayor = false;
+        if (nombre.getEdad() >= 18) {
+            esMayor = true;
         }
+        return esMayor;
     }
 
     public Persona crearPersona() {
