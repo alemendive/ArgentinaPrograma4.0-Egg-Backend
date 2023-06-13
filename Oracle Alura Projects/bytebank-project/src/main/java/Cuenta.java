@@ -1,14 +1,17 @@
 
+
 public abstract class Cuenta {
 
     protected double saldo;
-    private int agencia;
+    private int agencia = 1;
     private int numero;
     private Cliente titular = new Cliente();
 
     private static int total;
 
+    public Cuenta() {
 
+    }
 
     public Cuenta( int agencia, int numero) {
         this.agencia = agencia;
@@ -18,9 +21,7 @@ public abstract class Cuenta {
         Cuenta.total ++;
     }
 
-    public void deposita(double valor) {
-        this.saldo = this.saldo + valor;
-    }
+    public abstract void deposita(double valor);
 
     public boolean saca(double valor) {
         if(this.saldo >= valor) {
@@ -39,6 +40,14 @@ public abstract class Cuenta {
         } else {
             return false;
         }
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public int getAgencia() {
+        return agencia;
     }
 
     public void setAgencia(int agencia) {
@@ -68,4 +77,5 @@ public abstract class Cuenta {
     public static int getTotal() {
         return Cuenta.total;
     }
+
 }

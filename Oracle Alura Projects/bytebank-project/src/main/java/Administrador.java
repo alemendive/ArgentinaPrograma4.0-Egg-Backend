@@ -1,5 +1,8 @@
+
+
 public class Administrador extends Funcionario implements Autenticable {
-    private final AutenticacionUtil util;
+
+    private AutenticacionUtil util;
 
     public Administrador() {
         this.util = new AutenticacionUtil();
@@ -12,11 +15,12 @@ public class Administrador extends Funcionario implements Autenticable {
 
     @Override
     public void setClave(String clave) {
-        this.setClave(clave);
+        this.util.setClave(clave);
     }
+
     @Override
     public boolean iniciarSesion(String clave) {
         return this.util.iniciarSesion(clave);
-        }
     }
 
+}
