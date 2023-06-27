@@ -32,7 +32,7 @@ ORDER BY sal_emp asc;
 
 /*9. Obtener el nombre de o de los jefes que tengan su departamento situado en la ciudad
 de “Ciudad Real”*/
-SELECT nombre_jefe_depto, nombre_depto 
+SELECT nombre_jefe_depto, ciudad 
 FROM departamentos 
 WHERE ciudad = "CIUDAD REAL";
 
@@ -114,7 +114,7 @@ MAX(sal_emp) - MIN(sal_emp) AS diferencia_salarios
 FROM empleados;
 
 /*24. Hallar el salario promedio por departamento.*/
-SELECT round(AVG(sal_emp), 2) AS salario_promedio
+SELECT id_depto, round(AVG(sal_emp), 2) AS salario_promedio
 FROM empleados
 GROUP BY id_depto;
 
@@ -139,12 +139,17 @@ FROM empleados
 LEFT JOIN departamentos 
 ON empleados.id_depto = departamentos.id_depto;
 
+SELECT e.nombre, d.nombre_depto, d.nombre_jefe_depto 
+FROM empleados e 
+RIGHT JOIN departamentos d ON d.id_depto=e.id_depto;
+
 /*28. Mostrar la lista de los empleados cuyo salario es mayor o igual que el promedio de la
 empresa. Ordenarlo por departamento.*/
-SELECT id_emp, nombre, sal_emp 
-FROM empleados
-WHERE sal_emp >= (SELECT AVG(sal_emp)
-FROM empleados);
+SELECT e.nombre, e.sal_emp, d.nombre_depto 
+FROM empleados e, departamentos d 
+WHERE d.id_depto=e.id_depto 
+AND sal_emp > (SELECT AVG(sal_emp) FROM empleados) 
+ORDER BY d.nombre_depto;
 
 
 
